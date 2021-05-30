@@ -1,3 +1,9 @@
+# Reference: https://stackabuse.com/deploying-a-flask-application-to-heroku/
+# Github: https://github.com/RSwarnkar/nse-volume-api
+
+# Profile command: 
+# web: gunicorn app:app
+
 # app.py
 from flask import Flask, request, jsonify
 app = Flask(__name__)
